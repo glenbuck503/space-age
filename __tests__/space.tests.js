@@ -5,7 +5,7 @@ describe('Person', () => {
     person = new Person ("GlenBuck", 36);
   });
 
-  test('should return number of years lived past life expectancy which is 75', () => {
+  test('should show how many years the user has lived past the life expectancy', () => {
     let lifeExp = new Person ("LifePast", 76)
     expect(lifeExp.expectancy()).toEqual(1)
   });
