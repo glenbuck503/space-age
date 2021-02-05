@@ -1,11 +1,22 @@
-# Space Age
+# Glen's Space Age Calculator
 
-#### 
+<div align="center">
+<img src="https://github.com/glenbuck503.png" width="200px" height="auto" >
+</div>
+<br>
+<br>
+<br>
+
+#### This application will take a user's input and show their age on different planets.
 
 #### By Glen Buck
 
+<hr>
+
 ## Description
 
+This application will let a user enter their age and then calculate the input to the planet's age.
+<hr>
 
 
 ## Setup/Installation Requirements
@@ -22,25 +33,19 @@
 - If you would like to use Jest to run your tests, open your terminal and go to the root of the project directory and type in "npm test". The reusults of the tests will show for each test and also tell you how many passed or how many failed and which ones they were.
 - If you would like to run the program through the server, you can type "npm run start" which will build the program and launch the preview to the local server.
 - On the file nav on the left, open the "index.html" file in the "dist" folder
-
-## Specs
-
+<hr>
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+There are no known bugs. 2/5/2021
 
-## Known Bugs
-
-No Known bugs 2/5/21
-
-If you are using a version of Jest where the coverage directory is not automatically generated, you will need to update package.json file:
-
-`"scripts": {..."test": "jest --coverage"},"jest": { "collectCoverage": true, "coverageReporters": ["html"]},`
+<hr>
 
 ## Support and contact details
 
 For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.com">Send Email</a>
+
+<hr>
 
 ## Technologies Used
 
@@ -50,11 +55,13 @@ For contact support, please email Glen Buck <a href = "mailto: glenbuck@gamil.co
 - Git Hub
 - Jquery
 - JavaScript
-- Node
-- Webpack
+- node js
+<hr>
 
 ### License
 
-123.456.789
+345.111.4.5.
+
+<hr>
 
 Copyright (c) 2021 Glen Buck Inc.
