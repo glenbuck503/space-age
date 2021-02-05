@@ -11,7 +11,7 @@ describe('Person', () => {
   });
 
   test('should show user age in mercury age,', () => {
-    expect(person.mercury()).toEqual(145)  
+    expect(person.mercuryAge()).toEqual(150)  
   });
 
 
