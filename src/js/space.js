@@ -21,7 +21,7 @@ export default class Person {
   }
 
   jupiterAge() {
-    let jupiterAge = Math.floor(this.age / 1.88);
+    let jupiterAge = Math.floor(this.age / 11.86);
     return jupiterAge;
   }
 

@@ -23,7 +23,7 @@ describe('Person', () => {
   });
 
   test('should convert user age into jupiter age', () => {
-    expect(person.jupiterAge()).toEqual(100)
+    expect(person.jupiterAge()).toEqual(3)
   });
 
 
