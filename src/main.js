@@ -10,6 +10,10 @@ $(document).ready(function() {
     event.preventDefault();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
+    const person = new Person(userName, userAge);
+    const result = person.showDisplay();
+    console.log(result);
+    
     
   });
 });
