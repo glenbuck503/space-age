@@ -6,7 +6,9 @@ import Person from './js/space.js';
 
 
 $(document).ready(function() {
-  $('#template').submit(function(event) {
-   
+  $('#user').submit(function(event) {
+    event.preventDefault();
+    const userName = $("#inputName").val();
+    console.log(userName);
   });
 });
