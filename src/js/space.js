@@ -55,5 +55,4 @@ export default class Person {
     let jupiterExpLife = Math.floor(yearsLeft / 11.86);
     return jupiterExpLife;
   }
-
 }
