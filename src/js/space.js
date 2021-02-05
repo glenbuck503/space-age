@@ -60,9 +60,9 @@ export default class Person {
     const exp = this.mercuryAge() - 75;
     const age = this.mercuryAge();
     if (this.age > 75) {
-      return (`Your age on Mercury is : ${age}. You have lived ${exp} years past the life expectancy on Mercury`);
+      return (` .Your age on Mercury is : ${age}. You have lived ${exp} years past the life expectancy on Mercury`);
     } else {
-      return (`Your age on Mercury is : ${age}. You still have ${exp * -1} years on Mercury`)
+      return (` .Your age on Mercury is : ${age}. You still have ${exp * -1} years on Mercury`)
     }
   }
 
@@ -70,9 +70,9 @@ export default class Person {
     const exp = this.venusAge() - 75;
     const age = this.venusAge();
     if (this.age > 75) {
-      return (`Your age on Venus is : ${age}. You have lived ${exp} years past the life expectancy on Venus`);
+      return (` .Your age on Venus is : ${age}. You have lived ${exp} years past the life expectancy on Venus`);
     } else {
-      return (`Your age on Venus is : ${age}.You still have ${exp * -1} years on Venus`)
+      return (` .Your age on Venus is : ${age}.You still have ${exp * -1} years on Venus`)
     }
   }
 
@@ -81,9 +81,9 @@ export default class Person {
     const age = this.marsAge();
 
     if (this.age > 75) {
-      return (`Your age on Mars is : You have lived ${exp * -1} years past the life expectancy on Mars`);
+      return (` .Your age on Mars is : You have lived ${exp * -1} years past the life expectancy on Mars`);
     } else {
-      return (`Your age on Mars is : ${age}. You still have ${exp * -1} years on Mars`)
+      return (` .Your age on Mars is : ${age}. You still have ${exp * -1} years on Mars`)
     }
   }
 
@@ -91,11 +91,9 @@ export default class Person {
     const exp = this.jupiterAge() - 75;
     const age = this.jupiterAge();
     if (this.age > 75) {
-      return (`Your age on Jupiter is : ${age}. You have lived ${exp * -1} years past the life expectancy on Jupiter`);
+      return (` .Your age on Jupiter is : ${age}. You have lived ${exp * -1} years past the life expectancy on Jupiter`);
     } else {
-      return (`Your age on Jupiter is : ${age}. You still have ${exp * -1} years on Jupiter`)
+      return (` .Your age on Jupiter is : ${age}. You still have ${exp * -1} years on Jupiter`)
     }
   }
-
-
 }
