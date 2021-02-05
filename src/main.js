@@ -11,10 +11,13 @@ $(document).ready(function() {
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
+
     const result = person.showDisplay();
+    const age = person.mercuryAge();
 
 
     $(".output").html(result);
+
     
   });
 
@@ -48,6 +51,7 @@ $(document).ready(function() {
 
 
     $(".output").html(result);
+    
     
   });
 });
