@@ -34,7 +34,7 @@ describe('Person', () => {
   });
 
   test('should show the years that the user has left on mercury', () => {
-    expect(person.mercExpLife()).toEqual(160)
+    expect(person.mercExpLife()).toEqual(162)
   });
 
 
