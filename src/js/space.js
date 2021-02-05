@@ -57,8 +57,9 @@ export default class Person {
   }
 
   showDisplay(){
+    const exp = this.age - 75;
     if (this.age > 75) {
-      return "test";
+      return (`You have ${exp} years left on Mercury`);
     }
   }
 

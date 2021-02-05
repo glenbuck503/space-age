@@ -13,6 +13,8 @@ $(document).ready(function() {
     const person = new Person(userName, userAge);
     const result = person.showDisplay();
     console.log(result);
+
+    $(".output").html(result);
     
     
   });
