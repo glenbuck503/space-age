@@ -49,6 +49,4 @@ describe('Person', () => {
     expect(person.jupiterExpLife()).toEqual(3)
   });
 
-
-
 });
