@@ -42,7 +42,7 @@ describe('Person', () => {
   });
 
   test('should show the years that the user has left on mars', () => {
-    expect(person.marsExpLife()).toEqual(100)
+    expect(person.marsExpLife()).toEqual(20)
   });
 
 
