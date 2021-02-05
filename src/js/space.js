@@ -60,7 +60,9 @@ export default class Person {
     const exp = this.mercuryAge() - 75;
     if (this.age > 75) {
       return (`You have lived ${exp} years past the life expectancy on Mercury`);
-    } 
+    } else {
+      return (`You still have ${exp * -1} years on Mercury`)
+    }
   }
 
   showDisplayVenus(){
@@ -75,7 +77,7 @@ export default class Person {
   showDisplayMars(){
     const exp = this.marsAge() - 75;
     if (this.age > 75) {
-      return (`You have lived ${exp} years past the life expectancy on Mars`);
+      return (`You have lived ${exp * -1} years past the life expectancy on Mars`);
     } else {
       return (`You still have ${exp * -1} years on Mars`)
     }
