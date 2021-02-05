@@ -10,7 +10,7 @@ export default class Person {
     if (lifeExp < 0) {
       return (lifeExp * -1);
     } else {
-      return lifeExp;
+    return lifeExp;
     }
   }
 
@@ -37,41 +37,25 @@ export default class Person {
   mercExpLife() {
     let yearsLeft = Math.floor(75 - this.age);
     let mercExpLife = Math.floor(yearsLeft / .24);
-    if (yearsLeft < 0){
-      return (yearsLeft * -1)
-    } else {
-      return mercExpLife
-    }
+    return mercExpLife;
   }
 
   venusExpLife() {
     let yearsLeft = Math.floor(75 - this.age);
     let venusExpLife = Math.floor(yearsLeft / .62);
-    if (yearsLeft < 0){
-      return (yearsLeft * -1)
-    } else {
-      return venusExpLife
-    }
+    return venusExpLife;
   }
 
   marsExpLife() {
     let yearsLeft = Math.floor(75 - this.age);
     let marsExpLife = Math.floor(yearsLeft / 1.88);
-    if (yearsLeft < 0){
-      return (yearsLeft * -1)
-    } else {
-      return marsExpLife
-    }
+    return marsExpLife;
   }
 
   jupiterExpLife() {
     let yearsLeft = Math.floor(75 - this.age);
     let jupiterExpLife = Math.floor(yearsLeft / 11.86);
-    if (yearsLeft < 0){
-      return (yearsLeft * -1)
-    } else {
-      return jupiterExpLife
-    }
+    return jupiterExpLife;
   }
 
 }
