@@ -1,0 +1,21 @@
+body {
+  background: url(../assets/images/space.jpg);
+  background-repeat: no-repeat;
+  
+}
+.mercury {
+  padding: 20px;
+  
+}
+
+.venus {
+  padding: 20px;
+}
+
+.mars {
+  padding: 20px;
+}
+
+.jupiter {
+  padding: 20px;
+}
