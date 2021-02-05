@@ -44,4 +44,14 @@ export default class Person {
     }
   }
 
+  venusExpLife() {
+    let yearsLeft = Math.floor(75 - this.age);
+    let venusExpLife = Math.floor(yearsLeft / .62);
+    if (yearsLeft < 0){
+      return (yearsLeft * -1)
+    } else {
+      return venusExpLife
+    }
+  }
+
 }

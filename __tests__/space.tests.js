@@ -37,5 +37,9 @@ describe('Person', () => {
     expect(person.mercExpLife()).toEqual(162)
   });
 
+  test('should show the years that the user has left on venus', () => {
+    expect(person.venusExpLife()).toEqual(63)
+  });
+
 
 });
