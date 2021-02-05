@@ -1,11 +1,7 @@
-body {
-  background: url(../assets/images/space.jpg);
-  /* height: 100%; */
-   background-position:center;
-   background-repeat: no-repeat;
-   background-size:cover;
-   height:auto;
-  
+body, html {
+  background: url(../assets/images/space.jpg) no-repeat fixed center;;
+  background-position:center;
+  background-size:cover;
 }
 
 h2 {
