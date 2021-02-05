@@ -9,6 +9,7 @@ $(document).ready(function() {
   $('#user').submit(function(event) {
     event.preventDefault();
     const userName = $("#inputName").val();
-    console.log(userName);
+    const userAge = $("#inputAge").val();
+    
   });
 });
