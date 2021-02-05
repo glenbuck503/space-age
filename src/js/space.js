@@ -15,4 +15,9 @@ export default class Person {
     return venusAge;
   }
 
+  marsAge() {
+    let marsAge = Math.floor(this.age / 1.88);
+    return marsAge;
+  }
+
 }
