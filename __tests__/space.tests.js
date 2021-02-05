@@ -19,7 +19,7 @@ describe('Person', () => {
   });
 
   test('should show user age in mars years', () => {
-    expect(person.mars()).toEqual(19)
+    expect(person.marsAge()).toEqual(19)
   });
 
 
