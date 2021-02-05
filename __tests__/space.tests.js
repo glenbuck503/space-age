@@ -22,5 +22,9 @@ describe('Person', () => {
     expect(person.marsAge()).toEqual(19)
   });
 
+  test('should convert user age into jupiter age', () => {
+    expect(person.jupiterAge()).toEqual(18)
+  });
+
 
 });
