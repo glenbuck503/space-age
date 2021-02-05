@@ -7,7 +7,7 @@ describe('Person', () => {
 
   test('should take user input and create object', () => {
     expect(person.name).toEqual("GlenBuck");
-    expect(person.age).toEqual(35);
+    expect(person.age).toEqual(36);
   });
 
 });
