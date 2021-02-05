@@ -12,7 +12,7 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplay();
-    console.log(result);
+
 
     $(".output").html(result);
     
@@ -24,8 +24,7 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplayVenus();
-    console.log(result);
-
+  
     $(".output").html(result);
     
   });
@@ -34,19 +33,19 @@ $(document).ready(function() {
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
-    const result = person.showDisplayVenus();
-    console.log(result);
+    const result = person.showDisplayMars();
 
     $(".output").html(result);
     
   });
+
   $('#jupiter').submit(function(event) {
     event.preventDefault();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
-    const result = person.showDisplayVenus();
-    console.log(result);
+    const result = person.showDisplayJupiter();
+
 
     $(".output").html(result);
     
