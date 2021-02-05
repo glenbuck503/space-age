@@ -54,4 +54,14 @@ export default class Person {
     }
   }
 
+  marsExpLife() {
+    let yearsLeft = Math.floor(75 - this.age);
+    let marsExpLife = Math.floor(yearsLeft / 1.88);
+    if (yearsLeft < 0){
+      return (yearsLeft * -1)
+    } else {
+      return marsExpLife
+    }
+  }
+
 }
