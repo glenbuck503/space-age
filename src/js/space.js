@@ -5,6 +5,15 @@ export default class Person {
     this.age = age;
   }
 
+  expectancy() {
+    let lifeExp = Math.floor(75 - this.age);
+    if (lifeExp < 0) {
+      return (lifeExp * -1);
+    } else {
+      return lifeExp;
+    }
+  }
+
   mercuryAge() {
     let mercuryAge = Math.floor(this.age / .24);
     return mercuryAge;

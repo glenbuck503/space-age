@@ -5,6 +5,13 @@ describe('Person', () => {
     person = new Person ("GlenBuck", 36);
   });
 
+  test('should return number of years lived past life expectancy which is 75', () => {
+    let lifeExp = new Person ("LifePast", 76)
+    expect(lifeExp.expectancy()).toEqual(7)
+  });
+
+  
+
   test('should take user input and create object', () => {
     expect(person.name).toEqual("GlenBuck");
     expect(person.age).toEqual(36);
