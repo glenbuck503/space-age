@@ -1,6 +1,7 @@
-export default class template {
-  constructor() {
-   
-  }
 
-  
+export default class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
