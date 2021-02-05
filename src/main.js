@@ -12,7 +12,7 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplay();
-    $(".output").html("hello " + userName + result);
+    $(".output").html("Hi" + userName + "! " + result);
   });
 
   $('#venus').submit(function(event) {
@@ -21,7 +21,7 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplayVenus();
-    $(".output").html("hello " + userName + result);
+    $(".output").html("Hi" + userName + "! " + result);
   });
 
   $('#mars').submit(function(event) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplayMars();
-    $(".output").html("hello " + userName + result);
+    $(".output").html("Hi" + userName + "! " + result);
   });
 
   $('#jupiter').submit(function(event) {
@@ -39,6 +39,6 @@ $(document).ready(function() {
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
     const result = person.showDisplayJupiter();
-    $(".output").html("hello " + userName + result);
+    $(".output").html("Hi" + userName + "! " + result);
   });
 });
