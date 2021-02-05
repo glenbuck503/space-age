@@ -34,4 +34,14 @@ export default class Person {
     return jupiterAge;
   }
 
+  mercExpLife() {
+    let yearsLeft = Math.floor(75 - this.age);
+    let mercExpLife = Math.floor(yearsLeft / .24);
+    if (yearsLeft < 0){
+      return (yearsLeft * -1)
+    } else {
+      return mercExpLife
+    }
+  }
+
 }
