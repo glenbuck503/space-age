@@ -16,8 +16,8 @@
 ## Description
 
 This application will let a user enter their age and then calculate the input to the planet's age.
-<hr>
 
+<hr>
 
 ## Setup/Installation Requirements
 
