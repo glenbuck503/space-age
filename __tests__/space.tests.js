@@ -15,8 +15,6 @@ describe('Person', () => {
     expect(lifeExp.expectancy()).toEqual(1)
   });
 
-  
-
   test('should take user input and create object', () => {
     expect(person.name).toEqual("GlenBuck");
     expect(person.age).toEqual(36);
