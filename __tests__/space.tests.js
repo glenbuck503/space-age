@@ -10,6 +10,11 @@ describe('Person', () => {
     expect(lifeExp.expectancy()).toEqual(1)
   });
 
+  test('should show how many years the user has left due to the life expectancy', () => {
+    let lifeExp = new Person ("LifePast", 74)
+    expect(lifeExp.expectancy()).toEqual(1)
+  });
+
   
 
   test('should take user input and create object', () => {

@@ -9,6 +9,8 @@ export default class Person {
     let lifeExp = Math.floor(75 - this.age);
     if (lifeExp < 0) {
       return (lifeExp * -1);
+  } else {
+    return lifeExp;
   }
 }
 
