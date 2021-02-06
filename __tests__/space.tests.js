@@ -91,7 +91,7 @@ describe('Person', () => {
   }); 
 
   test('should display user years lived past on Jupiter', () => {
-    let jupLeft = new Person ("GlenBuck", 80)
+    let jupLeft = new Person ("GlenBuck", 55)
     let age = jupLeft.jupiterAge(); 
     let exp = jupLeft.jupiterAge() - 75; 
     expect(jupLeft.showDisplayJupiter()).toEqual(` Your age on Jupiter is : ${age}. You still have ${exp * -1} years on Jupiter`);
