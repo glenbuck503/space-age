@@ -103,7 +103,5 @@ describe('Person', () => {
     let exp = jupLeft.jupiterAge() - 75; 
     expect(jupLeft.showDisplayJupiter()).toEqual(` Your age on Jupiter is : ${age}. You still have ${exp * -1} years on Jupiter`);
   }); 
-
-
 });
   
