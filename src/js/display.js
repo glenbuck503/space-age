@@ -1,18 +1,18 @@
-import Person from './space.js'
+// import Person from './space.js'
 
-let person = new Person();
+// let person = new Person();
 
-export default class Display {
-  constructor() {
-    this.display = undefined;
-  }
+// export default class Display {
+//   constructor() {
+//     this.display = undefined;
+//   }
 
-  display() {
-    if ($("#inputAge" > 76)) {
-      person.age()
-      alert("sfsdfsd")
-    }
+//   display() {
+//     if ($("#inputAge" > 76)) {
+//       person.age()
+//       alert("sfsdfsd")
+//     }
 
     
-    }
-  }
+//     }
+//   }
