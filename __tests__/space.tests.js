@@ -75,5 +75,12 @@ describe('Person', () => {
     let exp = venLeft.venusAge() - 75; 
     expect(venLeft.showDisplayVenus()).toEqual(` Your age on Venus is : ${age}. You have lived ${exp} years past the life expectancy on Venus`)
   }); 
+
+  test('should display user years lived past on Mars', () => {
+    let marsPast = new Person ("GlenBuck", 55)
+    let age = marsPast.marsAge(); 
+    let exp = marsPast.marsAge() - 75; 
+    expect(marsPast.showDisplayMars()).toEqual(` Your age on Mars is : ${age} You have lived ${exp * -1} years past the life expectancy on Mars`);
+  }); 
 });
   
