@@ -32,6 +32,8 @@ p {
 }
 
 .output {
+  padding: 30px;
   color:white;
   font-size: 25px;
+  text-align: center;
 }
