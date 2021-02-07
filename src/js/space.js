@@ -83,7 +83,7 @@ export default class Person {
     const age = this.marsAge();
 
     if (this.age > 75) {
-      return (` Your age on Mars is : ${age} You have lived ${exp * 1} years past the life expectancy on Mars`);
+      return (` Your age on Mars is : ${age} You have lived ${exp * -1} years past the life expectancy on Mars`);
     } else {
       return (` Your age on Mars is : ${age}. You still have ${exp * -1} years on Mars`);
     }
