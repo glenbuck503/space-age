@@ -18,6 +18,7 @@ $(document).ready(function() {
 
   $('#venus').submit(function(event) {
     event.preventDefault();
+    $(".output").show();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
@@ -27,6 +28,7 @@ $(document).ready(function() {
 
   $('#mars').submit(function(event) {
     event.preventDefault();
+    $(".output").show();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
@@ -36,6 +38,7 @@ $(document).ready(function() {
 
   $('#jupiter').submit(function(event) {
     event.preventDefault();
+    $(".output").show();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
