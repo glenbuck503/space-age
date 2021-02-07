@@ -32,8 +32,10 @@ p {
 }
 
 .output {
+  display: none;
   padding: 30px;
-  color:white;
+  color:#f37878;
   font-size: 25px;
   text-align: center;
+  background-color: black;
 }

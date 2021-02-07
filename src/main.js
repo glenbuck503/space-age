@@ -8,6 +8,7 @@ import Person from './js/space.js';
 $(document).ready(function() {
   $('#mercury').submit(function(event) {
     event.preventDefault();
+    $(".output").show();
     const userName = $("#inputName").val();
     const userAge = $("#inputAge").val();
     const person = new Person(userName, userAge);
