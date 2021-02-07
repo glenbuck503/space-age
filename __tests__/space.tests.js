@@ -62,7 +62,7 @@ describe('Person', () => {
     let mercLeft = new Person ("GlenBuck", 33)
     let age = mercLeft.mercuryAge(); 
     let exp = mercLeft.mercuryAge() - 75; 
-    expect(mercLeft.showDisplay()).toEqual(` Your age on Mercury is : ${age}. You still have ${exp * -1} years on Mercury`)
+    expect(mercLeft.showDisplay()).toEqual(` Your age on Mercury is : ${age}. You still have ${exp} years on Mercury`)
   }); 
 
   test('should dsiplay user years lived past on Venus', () => {
@@ -94,7 +94,7 @@ describe('Person', () => {
   }); 
 
   test('should display user years lived past on Jupiter', () => {
-    let jupLeft = new Person ("GlenBuck", 79)
+    let jupLeft = new Person ("GlenBuck", 80)
     let age = jupLeft.jupiterAge(); 
     let exp = jupLeft.jupiterAge() - 75; 
     expect(jupLeft.showDisplayJupiter()).toEqual(` Your age on Jupiter is : ${age}. You have lived ${exp * -1} years past the life expectancy on Jupiter`);
