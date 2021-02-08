@@ -56,7 +56,7 @@ describe('Person', () => {
     let mercPast = new Person ("GlenBuck", 78)
     let age = mercPast.mercuryAge(); 
     let exp = mercPast.mercuryAge() - 75; 
-    expect(mercPast.showDisplay()).toEqual(` Your age on Mercury is : ${age}. You have lived ${exp} years past the life expectancy on Mercury`)
+    expect(mercPast.showDisplay()).toEqual(` Your age on Mercury is : ${age}. You have lived ${exp * 1} years past the life expectancy on Mercury`)
   }); 
   test('should dsiplay user years left on mercury', () => {
     let mercLeft = new Person ("GlenBuck", 33)

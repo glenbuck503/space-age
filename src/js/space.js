@@ -62,7 +62,7 @@ export default class Person {
     const exp = this.mercuryAge() - 75;
     const age = this.mercuryAge();
     if (this.age > 75) {
-      return (` Your age on Mercury is : ${age}. You have lived ${exp} years past the life expectancy on Mercury`);
+      return (` Your age on Mercury is : ${age}. You have lived ${exp * 1} years past the life expectancy on Mercury`);
     } else  {
       return (` Your age on Mercury is : ${age}. You still have ${exp} years on Mercury`);
     }
