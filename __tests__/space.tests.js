@@ -83,7 +83,7 @@ describe('Person', () => {
     let marsPast = new Person ("GlenBuck", 80)
     let age = marsPast.marsAge(); 
     let exp = marsPast.marsAge() - 75; 
-    expect(marsPast.showDisplayMars()).toEqual(` Your age on Mars is : ${age} You have lived ${exp * -1} years past the life expectancy on Mars`);
+    expect(marsPast.showDisplayMars()).toEqual(` Your age on Mars is : ${age } You have lived ${exp * -1} years past the life expectancy on Mars`);
   }); 
 
   test('should display user years left on Mars', () => {
